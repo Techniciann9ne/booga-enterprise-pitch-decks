@@ -1,6 +1,6 @@
-# [Project name]
+# Booga Enterprise — Pitch Decks
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A monorepo of presentation artifacts for Booga Enterprise. The primary deliverable is the **Booga Agents in-person enterprise sales pitch deck** — a full-screen, presenter-ready web slide deck (keyboard navigation + speaker notes) built to the Booga brand system.
 
 ## Run & Operate
 
@@ -30,7 +30,10 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+- **Booga Agents Pitch Deck** (`artifacts/booga-agents-pitch-deck`, slug `booga-agents-pitch-deck`): a 19-slide web deck — 14 core slides + 5 appendix slides (A1–A5). Full-screen present mode, arrow/space navigation, `/allslides` overview, and per-slide speaker notes in the manifest. Slides live in `src/pages/slides/*.tsx`; order/notes in `src/data/slides-manifest.json`. Brand tokens in `src/index.css`; shared chrome (logo, Connect→Understand→Act spine) in `src/components/`.
+- Editable `[bracket]` placeholders (date, contact, design-partner reference, unverified metrics, approved FAQ answers) render as styled green-dashed tokens so they can be filled per prospect without code.
+- **Content governance is strict** — naming, forbidden content, and the brand system are non-negotiable. See `.agents/memory/booga-deck-content-rules.md` before editing any Booga deck copy.
+- After editing slides: `pnpm --filter @workspace/booga-agents-pitch-deck run validate-slides`, then restart the `artifacts/booga-agents-pitch-deck: web` workflow.
 
 ## User preferences
 

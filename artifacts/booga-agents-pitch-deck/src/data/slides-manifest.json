@@ -1,1 +1,154 @@
-[]
+[
+  {
+    "id": "cover",
+    "position": 1,
+    "filepath": "src/pages/slides/01-cover.tsx",
+    "title": "Cover / hook",
+    "description": "Title slide: put your firm's knowledge to work without it leaving your control.",
+    "speakerNotes": "Open calm and confident. The whole promise in one line: your knowledge, working for you, without ever leaving your control. Introduce yourself, set that this is confidential, and that we'll end with a demo on their own data. Logo top-left; fill the [Date] placeholder per meeting."
+  },
+  {
+    "id": "why-now",
+    "position": 2,
+    "filepath": "src/pages/slides/02-why-now.tsx",
+    "title": "Why now",
+    "description": "Capability has raced ahead of adoption; the barrier is trust and control.",
+    "speakerNotes": "The timing argument. AI can finally do real knowledge work, but enterprises still can't safely point it at their own information. Talk to the gap chart: capability up and to the right, adoption flat. Set up the three honest barriers you'll resolve through the deck."
+  },
+  {
+    "id": "problem",
+    "position": 3,
+    "filepath": "src/pages/slides/03-problem.tsx",
+    "title": "The problem",
+    "description": "Knowledge is the firm's edge but it's trapped, expensive, and risky today.",
+    "speakerNotes": "Make it personal to their firm. Their edge is decades of documents and precedents, but it's trapped, expensive to use, and the workarounds are risky. Land Risky hardest — pasting client material into a public chatbot is the exposure that keeps security people up at night."
+  },
+  {
+    "id": "meet-booga-agents",
+    "position": 4,
+    "filepath": "src/pages/slides/04-meet-booga-agents.tsx",
+    "title": "Meet Booga Agents",
+    "description": "The one-line product: AI on your knowledge, inside your own walls. Connect, Understand, Act inside Trust.",
+    "speakerNotes": "The one sentence: Booga Agents puts AI to work on your knowledge, inside your own walls. Walk the spine once — Connect, Understand, Act — and note that the whole thing sits inside Trust: isolated, governed, audited. Everything that follows hangs off this diagram."
+  },
+  {
+    "id": "connect",
+    "position": 5,
+    "filepath": "src/pages/slides/05-connect.tsx",
+    "title": "Connect",
+    "description": "We come to your data: one-way, read-only mirror of SharePoint / Microsoft 365.",
+    "speakerNotes": "This is the disarm. We come to your data; your data never comes to us. One-way, read-only — your system of record is never modified, nothing is re-platformed, nothing touches the public internet. If asked about exact connectors, note the live mirror ships for the major cloud stores and we confirm specifics with the product team before printing."
+  },
+  {
+    "id": "understand",
+    "position": 6,
+    "filepath": "src/pages/slides/06-understand.tsx",
+    "title": "Understand",
+    "description": "Documents become organized, searchable knowledge automatically, with human approval.",
+    "speakerNotes": "Reads everything — scanned, legacy, email, multi-language — and proposes how to organize it. The team approves; it stays current automatically. Emphasize this is the unglamorous work that makes everything after it possible. For this prospect, name their actual languages if confirmed."
+  },
+  {
+    "id": "act",
+    "position": 7,
+    "filepath": "src/pages/slides/07-act.tsx",
+    "title": "Act",
+    "description": "Agents do real, repeatable work described in plain English; human-in-the-loop.",
+    "speakerNotes": "Emotional peak. Organized documents become hours of expert time saved. Stress human-in-the-loop: agents draft, professionals decide. You describe the task once, in plain English, and it runs from then on. Tee up the live walkthrough here."
+  },
+  {
+    "id": "day-in-the-life",
+    "position": 8,
+    "filepath": "src/pages/slides/08-day-in-the-life.tsx",
+    "title": "A day in the life",
+    "description": "Legal example: 9:02 client email to 9:15 reviewed draft; overnight auto-organization.",
+    "speakerNotes": "Bridge into the live demo. Narrate it as a story — email in at 9:02, grounded draft with citations by 9:08, reviewed and sent by 9:15, and overnight the new documents were already processed. Then say 'let me show you this for real' and switch to the app. Keep this slide up as the demo's table of contents."
+  },
+  {
+    "id": "it-remembers",
+    "position": 9,
+    "filepath": "src/pages/slides/09-it-remembers.tsx",
+    "title": "It remembers",
+    "description": "The moat: the Intelligence Layer captures context and compounds value over time.",
+    "speakerNotes": "The moat, ~30 seconds. This is what separates Booga Agents from a chatbot on your documents: institutional memory that doesn't walk out the door when a person does. The longer the firm uses it, the more it knows the practice — the value compounds. This is the one high-contrast slide; let it land."
+  },
+  {
+    "id": "built-on-trust",
+    "position": 10,
+    "filepath": "src/pages/slides/10-built-on-trust.tsx",
+    "title": "Built on trust",
+    "description": "Four pillars: isolation, one-way read-only, audited end to end, governed access.",
+    "speakerNotes": "The security/procurement slide, delivered as peace of mind. When their security and compliance people get involved — and they will — this is the slide that gets you to yes. Frame compliance as reporting support, not certification. Mention data residency if they have EU/local requirements."
+  },
+  {
+    "id": "why-booga-agents",
+    "position": 11,
+    "filepath": "src/pages/slides/11-why-booga-agents.tsx",
+    "title": "Why Booga Agents vs. the alternatives",
+    "description": "Build-vs-buy-vs-risk comparison; Booga Agents clears all four bars.",
+    "speakerNotes": "Don't bash anyone by name. Frame the three honest alternatives they're actually weighing — generic copilots, build it yourself, point tools — and show Booga Agents as the only one that clears all four bars. Let the table do the work; talk to the last column."
+  },
+  {
+    "id": "proof",
+    "position": 12,
+    "filepath": "src/pages/slides/12-proof.tsx",
+    "title": "Proof / outcomes",
+    "description": "Outcome statements; design-partner reference and metrics as confirmable placeholders.",
+    "speakerNotes": "Reference the design partner at the agreed level — confirm exact wording and logo permission before printing. If a verified metric exists (hours saved, turnaround), drop one number into the accent slot; otherwise leave the placeholders empty rather than inventing."
+  },
+  {
+    "id": "how-you-start",
+    "position": 13,
+    "filepath": "src/pages/slides/13-how-you-start.tsx",
+    "title": "How you start",
+    "description": "Three-step ladder: Team, Business, Enterprise. No prices on the live deck.",
+    "speakerNotes": "Keep pricing off the live deck. Show the three-step ladder so the prospect can self-locate, then offer the confidential leave-behind: 'I'll send the detailed plans and pricing as a follow-up.' Never frame Team as cheap or basic — it's the same platform, isolated."
+  },
+  {
+    "id": "close",
+    "position": 14,
+    "filepath": "src/pages/slides/14-close.tsx",
+    "title": "Close / CTA",
+    "description": "The single CTA: a 30-minute walkthrough on a sample of their own documents.",
+    "speakerNotes": "End on the most powerful CTA for this product: a demo on their data, where the platform sells itself. Leave the contact details and the leave-behind offer on screen. Fill the [Name], [email], and [book a time] placeholders per meeting."
+  },
+  {
+    "id": "appendix-security",
+    "position": 15,
+    "filepath": "src/pages/slides/15-appendix-security.tsx",
+    "title": "Appendix A1 — Security & isolation",
+    "description": "Per-tenant database/index/region, customer-managed keys, private networking, 7-year audit retention.",
+    "speakerNotes": "Pull up only when the security person leans in. Go deep on per-tenant isolation, customer-managed keys, private networking, one-way read-only sync, and 7-year default audit retention. Compliance is reporting support, never claimed certification."
+  },
+  {
+    "id": "appendix-integrations",
+    "position": 16,
+    "filepath": "src/pages/slides/16-appendix-integrations.tsx",
+    "title": "Appendix A2 — Integrations & connectors",
+    "description": "SharePoint/M365, Salesforce, NetSuite, Slack, REST/webhook, legal data APIs; 600+ endpoints, 11 plugins.",
+    "speakerNotes": "For the technical buyer. Deep connectors plus a 600+ endpoint REST API and 11 plugins mean anything not on the list can still be reached. Confirm exact connector wording with the product team before printing."
+  },
+  {
+    "id": "appendix-agents",
+    "position": 17,
+    "filepath": "src/pages/slides/17-appendix-agents.tsx",
+    "title": "Appendix A3 — How agents are built",
+    "description": "Plain-English description becomes a running workflow; describe it, don't build it.",
+    "speakerNotes": "The 'describe it, don't build it' moment. Show how one plain-English sentence becomes a logged, reviewable workflow that routes to a human. No code, no integration project. This is the same moment as Video 1 of the walkthrough."
+  },
+  {
+    "id": "appendix-pipeline",
+    "position": 18,
+    "filepath": "src/pages/slides/18-appendix-pipeline.tsx",
+    "title": "Appendix A4 — Document pipeline",
+    "description": "Ingest, multilingual OCR extract, auto-organize, human review, search.",
+    "speakerNotes": "The read-everything pipeline in detail: ingest every format, multilingual OCR even on decades-old scans, auto-categorization, human review, then search. New documents flow through the same path automatically."
+  },
+  {
+    "id": "appendix-faq",
+    "position": 19,
+    "filepath": "src/pages/slides/19-appendix-faq.tsx",
+    "title": "Appendix A5 — FAQ",
+    "description": "Common objections with approved-answer placeholders (training, connectivity, self-host, onboarding).",
+    "speakerNotes": "Objection handling. The four questions are pre-loaded; the answers must be supplied and approved by Booga Enterprise — do not improvise on data-training, self-hosting, connectivity, or onboarding commitments."
+  }
+]

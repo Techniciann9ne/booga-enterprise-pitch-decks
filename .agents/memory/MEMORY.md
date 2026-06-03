@@ -1,0 +1,1 @@
+- [Booga Agents deck content governance](booga-deck-content-rules.md) — non-negotiable naming/forbidden-content/brand rules for any Booga Enterprise deck; violating them breaks client compliance.
