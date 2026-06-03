@@ -34,6 +34,7 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 - Editable `[bracket]` placeholders (date, contact, design-partner reference, unverified metrics, approved FAQ answers) render as styled green-dashed tokens so they can be filled per prospect without code.
 - **Content governance is strict** — naming, forbidden content, and the brand system are non-negotiable. See `.agents/memory/booga-deck-content-rules.md` before editing any Booga deck copy.
 - After editing slides: `pnpm --filter @workspace/booga-agents-pitch-deck run validate-slides`, then restart the `artifacts/booga-agents-pitch-deck: web` workflow.
+- **Booga Agents Teaser Deck** (`artifacts/booga-agents-teaser-deck`, slug `booga-agents-teaser-deck`): a short 6-slide email teaser — Cover, Problem (Trapped/Expensive/Risky), Platform (Connect→Understand→Act in a Trust border), One Outcome (9:02→9:15 legal example, with an editable per-vertical token), Built on Trust, Close. Compresses the main deck's spine to earn a meeting; reuses the main deck's exact brand system (`src/index.css` tokens, Inter, `BrandMark`). Same `[bracket]` placeholder convention. After editing: `pnpm --filter @workspace/booga-agents-teaser-deck run validate-slides`, then restart `artifacts/booga-agents-teaser-deck: web`.
 
 ## User preferences
 

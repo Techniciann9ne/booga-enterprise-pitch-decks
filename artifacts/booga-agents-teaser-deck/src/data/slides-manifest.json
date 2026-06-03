@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "id": "1f569f2c-c151-484b-88d1-5be5a7004f6c",
+    "position": 1,
+    "filepath": "src/pages/slides/01-cover.tsx",
+    "title": "Cover",
+    "description": "Brand cover with value proposition and 90-second framing.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "83d71680-4e93-43db-a465-db19222a217d",
+    "position": 2,
+    "filepath": "src/pages/slides/02-problem.tsx",
+    "title": "The Problem",
+    "description": "Knowledge is trapped, expensive, and risky.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b9763875-942b-4fde-bf7f-5f6bfbb4c9cd",
+    "position": 3,
+    "filepath": "src/pages/slides/03-platform.tsx",
+    "title": "The Platform",
+    "description": "Connect, Understand, Act — all inside a Trust border.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "b61f59c5-fca5-443c-b97f-12089e59a4b3",
+    "position": 4,
+    "filepath": "src/pages/slides/04-outcome.tsx",
+    "title": "One Outcome",
+    "description": "A legal example: a client email at 9:02, a drafted reply by 9:15.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "bbc721f8-bc6b-424b-96d4-bc8b873d666f",
+    "position": 5,
+    "filepath": "src/pages/slides/05-trust.tsx",
+    "title": "Built on Trust",
+    "description": "Isolation, governance, audit, and compliance reporting.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "fb458f79-dc09-4823-86f7-4d3d1f388577",
+    "position": 6,
+    "filepath": "src/pages/slides/06-close.tsx",
+    "title": "Close",
+    "description": "Call to action with editable contact placeholders and tagline.",
+    "speakerNotes": ""
+  }
+]

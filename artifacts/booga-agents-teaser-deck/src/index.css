@@ -6,17 +6,23 @@
   --color-bg: var(--slide-bg);
   --color-text: var(--slide-text);
   --color-muted: var(--slide-muted);
+  --color-stone: var(--slide-stone);
+  --color-deep: var(--slide-deep);
+  --color-lightgreen: var(--slide-lightgreen);
   --font-display: var(--font-display-family);
   --font-body: var(--font-body-family);
 }
 
 :root {
-  /* Replace these with brand colors */
-  --slide-primary: #4f46e5;
-  --slide-accent: #06b6d4;
-  --slide-bg: #f8fafc;
-  --slide-text: #0f172a;
-  --slide-muted: #64748b;
+  /* Booga Enterprise brand system (2026) */
+  --slide-primary: #145738; /* Deep Base */
+  --slide-accent: #00aa5b; /* Vibrant Pop */
+  --slide-bg: #f6f6f6; /* Light */
+  --slide-text: #121212; /* Blackout */
+  --slide-muted: #4f4f4f; /* readable neutral derived from Blackout */
+  --slide-stone: #bebebe; /* Stone — dividers, gridlines, fine print */
+  --slide-deep: #145738; /* Deep Base */
+  --slide-lightgreen: #74e4b0; /* Light Green */
   --font-display-family: "Inter", system-ui, sans-serif;
   --font-body-family: "Inter", system-ui, sans-serif;
   color-scheme: light;
@@ -33,6 +39,7 @@ body,
 body {
   background: var(--slide-bg);
   color: var(--slide-text);
+  font-family: var(--font-body-family);
 }
 
 .slide {
