@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/booga-agents-teaser-deck/"
+title = "Booga Agents Teaser Deck"
+version = "1.0.0"
+id = "artifacts/booga-agents-teaser-deck"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/booga-agents-teaser-deck/" ]
+localPort = 18940
+
+[services.development]
+run = "pnpm --filter @workspace/booga-agents-teaser-deck run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/booga-agents-teaser-deck", "run", "build" ]
+publicDir = "artifacts/booga-agents-teaser-deck/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18940"
+BASE_PATH = "/booga-agents-teaser-deck/"
