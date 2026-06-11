@@ -6,3 +6,9 @@ id = "BP6OXBSGdpgc8aD_B_jZa"
 uri = "file://.local/outputs/Booga-Sales-Deck.pdf"
 type = "pdf"
 title = "Booga Sales Deck.pdf"
+
+[[outputs]]
+id = "78tXKqLWePtV_CD1jXKQw"
+uri = "file://.local/outputs/Booga-Sales-Deck.pptx"
+type = "slides"
+title = "Booga Sales Deck.pptx"
