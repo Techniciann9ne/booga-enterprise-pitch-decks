@@ -1,0 +1,66 @@
+[
+  {
+    "id": "a1b2c3d4-0001-4a01-9c01-000000000001",
+    "position": 1,
+    "filepath": "src/pages/slides/01-cover.tsx",
+    "title": "Cover",
+    "description": "Confidential plans & pricing cover with editable prospect/date placeholders.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0002-4a02-9c02-000000000002",
+    "position": 2,
+    "filepath": "src/pages/slides/02-value.tsx",
+    "title": "The Value Frame",
+    "description": "Price against expert hours saved — a value-vs-cost model the buyer fills in.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0003-4a03-9c03-000000000003",
+    "position": 3,
+    "filepath": "src/pages/slides/03-plans.tsx",
+    "title": "Three-Step Ladder",
+    "description": "Data to compute to governance — the at-a-glance comparison table.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0004-4a04-9c04-000000000004",
+    "position": 4,
+    "filepath": "src/pages/slides/04-tiers.tsx",
+    "title": "What Each Plan Includes",
+    "description": "Team, Business, and Enterprise deep-dives with reason-to-step-up lines.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0005-4a05-9c05-000000000005",
+    "position": 5,
+    "filepath": "src/pages/slides/05-rollout.tsx",
+    "title": "What a Rollout Looks Like",
+    "description": "A worked sizing example recommending Enterprise, with a Business step-down.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0006-4a06-9c06-000000000006",
+    "position": 6,
+    "filepath": "src/pages/slides/06-platform.tsx",
+    "title": "One Platform",
+    "description": "The capability band every tier shares — agents, intelligence, isolation, governance.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0007-4a07-9c07-000000000007",
+    "position": 7,
+    "filepath": "src/pages/slides/07-pricing-terms.tsx",
+    "title": "Pricing and Terms",
+    "description": "Per-seat terms, seat minimums, OCR overage, and Enterprise customization.",
+    "speakerNotes": ""
+  },
+  {
+    "id": "a1b2c3d4-0008-4a08-9c08-000000000008",
+    "position": 8,
+    "filepath": "src/pages/slides/08-close.tsx",
+    "title": "Next Step",
+    "description": "Start small, scale up — contact byline and scoping-call call to action.",
+    "speakerNotes": ""
+  }
+]

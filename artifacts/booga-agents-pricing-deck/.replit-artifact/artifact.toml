@@ -1,0 +1,31 @@
+kind = "slides"
+previewPath = "/booga-agents-pricing-deck/"
+title = "Booga Agents Pricing Deck"
+version = "1.0.0"
+id = "artifacts/booga-agents-pricing-deck"
+router = "path"
+
+[[integratedSkills]]
+name = "slides"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/booga-agents-pricing-deck/" ]
+localPort = 25135
+
+[services.development]
+run = "pnpm --filter @workspace/booga-agents-pricing-deck run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/booga-agents-pricing-deck", "run", "build" ]
+publicDir = "artifacts/booga-agents-pricing-deck/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25135"
+BASE_PATH = "/booga-agents-pricing-deck/"
